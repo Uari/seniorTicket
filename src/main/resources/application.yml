@@ -1,0 +1,39 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+    
+spring:
+  output:
+    ansi:
+      enabled: always
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  datasource:
+    hikari:
+      #jdbc:mysql://{서버PC IP번호}:3306/{DB명}?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/new_schem?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+      username: root
+      password: root1234 #root12345678
+      connection-timeout: 20000
+      validation-timeout: 3000
+      minimum-idle: 5
+      maximum-pool-size: 12
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+      pool-name: mySqlPool
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
