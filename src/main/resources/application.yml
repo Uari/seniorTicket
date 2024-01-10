@@ -18,10 +18,9 @@ spring:
       
   datasource:
     hikari:
-      #jdbc:mysql://{서버PC IP번호}:3306/{DB명}?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
-      jdbc-url: jdbc:mysql://127.0.0.1:3306/new_schem?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
       username: root
-      password: root1234 #root12345678
+      password: root1234 
       connection-timeout: 20000
       validation-timeout: 3000
       minimum-idle: 5
