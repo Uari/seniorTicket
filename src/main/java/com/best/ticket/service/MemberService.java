@@ -5,7 +5,6 @@ import java.util.Map;
 
 public interface MemberService {
 
-  public List<Map<String,Object>> memberList() throws Exception;
-  public int memberInsert() throws Exception;
+  public List<Map<String,Object>> memberList(List<Map<String, Object>> pmap) throws Exception;
 
 }

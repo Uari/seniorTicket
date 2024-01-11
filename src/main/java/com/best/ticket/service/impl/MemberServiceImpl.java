@@ -17,24 +17,13 @@ public class MemberServiceImpl implements MemberService{
 
   @Autowired
   private MemberDao memberDao;
-  
-
 
   @Override
-  public List<Map<String,Object>> memberList() throws Exception{
+  public List<Map<String, Object>> memberList(List<Map<String, Object>> pmap) throws Exception {
+    logger.info("Service : memberList 호출");
 
-    return memberDao.memberList();
+    memberDao.memberList(pmap);
+    
+    return null;
   }
-
-
-
-  @Override
-  public int memberInsert() throws Exception {
-  
-    return 0;
-  }
-
-
-
-  
 }

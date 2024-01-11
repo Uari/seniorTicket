@@ -16,7 +16,11 @@ public class MemberDao {
   @Autowired
   SqlSessionTemplate sqlSessionTemplate;
 
-  public List<Map<String, Object>> memberList() {
+  public List<Map<String, Object>> memberList(List<Map<String, Object>> pmap) {
+    logger.info("Dao : memberList 호출");
+    
+    sqlSessionTemplate.selectList("memberList", pmap);
+
     return null;
   }
 }
