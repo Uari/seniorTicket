@@ -16,7 +16,7 @@ public class MemberContoller {
   @Autowired
   private MemberService memberService;
   
-  /*
+  /*zzzzzzzzzzzzzzz
     작성자 : pbh
     작성일자 : 
     기능 : 회원삭제
