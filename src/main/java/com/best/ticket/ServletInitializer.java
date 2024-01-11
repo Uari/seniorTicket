@@ -1,4 +1,4 @@
-package com.best.ticketting;
+package com.best.ticket;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

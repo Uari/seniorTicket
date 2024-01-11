@@ -1,4 +1,4 @@
-package com.best.ticketting.dao;
+package com.best.ticket.dao;
 
 import java.util.List;
 import java.util.Map;

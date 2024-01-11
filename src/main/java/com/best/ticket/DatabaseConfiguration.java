@@ -1,4 +1,4 @@
-package com.best.ticketting;
+package com.best.ticket;
 
 import javax.sql.DataSource;//커넥션풀사용할때나 원격객체를 호출할때사용
 

@@ -1,9 +1,11 @@
-package com.best.ticketting.logic;
+package com.best.ticket.service;
 
 import java.util.List;
 import java.util.Map;
 
-public interface IF_MemberLogic {
+public interface MemberService {
 
   public List<Map<String,Object>> memberList() throws Exception;
+  public int memberInsert() throws Exception;
+
 }
