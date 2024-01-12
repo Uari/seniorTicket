@@ -17,6 +17,6 @@ public class NoticeController {
   public String noticeList(){
     
 
-    return null;
+    return "/openNotice";
   }
 }
