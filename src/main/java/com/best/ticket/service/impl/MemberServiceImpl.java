@@ -18,6 +18,11 @@ public class MemberServiceImpl implements MemberService{
   @Autowired
   private MemberDao memberDao;
 
+  /*ex)
+    작성자 : 홍길동
+    작성일자 : 24.01.12
+    기능 : 회원조회(service)
+  */
   @Override
   public List<Map<String, Object>> memberList(List<Map<String, Object>> pmap) throws Exception {
     logger.info("Service : memberList 호출");

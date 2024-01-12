@@ -22,7 +22,7 @@ public class MemberContoller {
   @Autowired
   private MemberService memberService;
   
-  /*
+  /*ex)
     작성자 : 홍길동
     작성일자 : 24.01.12
     기능 : 회원조회
