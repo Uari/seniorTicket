@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java"	contentType="text/html;charset=UTF-8"	pageEncoding="UTF-8"%>
 <%
   String nickname = (String)session.getAttribute("nickname");
   //로그인을 하지 않았다면 null이 출력됨
