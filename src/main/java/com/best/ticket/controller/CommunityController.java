@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.best.ticket.service.CommunityService;
 
 @Controller
-@RequestMapping("*community/*")
+@RequestMapping("/community/*")
 public class CommunityController {
   Logger logger = LoggerFactory.getLogger(CommunityController.class);
 
