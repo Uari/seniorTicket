@@ -11,5 +11,5 @@ import java.util.Map;
 public interface NoticeService {
 
 public List<Map<String,Object>> noticeList(List<Map<String, Object>> pmap) throws Exception;
-  
+
 } 
