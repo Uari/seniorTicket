@@ -20,7 +20,7 @@ spring:
     hikari:
       jdbc-url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
       username: root
-      password: root1234 
+      password: root12345678
       connection-timeout: 20000
       validation-timeout: 3000
       minimum-idle: 5
